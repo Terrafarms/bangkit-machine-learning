@@ -14,7 +14,7 @@ For our machine learning we build image classifier for plant desease detection a
 * [New Plant Diseases Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
 * [Corn or Maize Leaf Disease Dataset](https://www.kaggle.com/datasets/smaranjitghose/corn-or-maize-leaf-disease-dataset)
 * [Rice Leaf Disease Dataset](https://www.kaggle.com/datasets/vbookshelf/rice-leaf-diseases)
-* [Soil Type Dataset]((https://www.kaggle.com/datasets/prasanshasatpathy/soil-types))
+* [Soil Type Dataset](https://www.kaggle.com/datasets/prasanshasatpathy/soil-types)
 
 
 ## Models
