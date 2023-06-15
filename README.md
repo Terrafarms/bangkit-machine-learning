@@ -21,10 +21,10 @@ For our machine learning we build image classifier for plant desease detection a
 ### Model Overview
 
 The model architecture consists of the following layers:
-    - Convolutional layer with 32 filters and a ReLU activation function.
-    - Max pooling layer with a 2x2 pool size.
-    - Flatten layer to convert the 2D feature maps into a 1D feature vector.
-    - Dense layer with the number of units equal to the number of classes, using softmax activation.
+- Convolutional layer with 32 filters and a ReLU activation function.
+- Max pooling layer with a 2x2 pool size.
+- Flatten layer to convert the 2D feature maps into a 1D feature vector.
+- Dense layer with the number of units equal to the number of classes, using softmax activation.
 
 ### Data Processing
 
