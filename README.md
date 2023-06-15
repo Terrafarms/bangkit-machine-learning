@@ -48,3 +48,39 @@ The trained model is evaluated using the test dataset. The evaluation provides t
 The trained model is saved in the HDF5 format as `model.h5` for future use. To integrate the model with android applications, the model is converted to the TensorFlow Lite (TFLite) format using the TFLite Converter. The TFLite model is saved as `model.tflite` for deployment on resource-constrained devices.
 
 In addition to the TFLite model, a metadata file (`metadata.txt`) is provided. The metadata file contains information about the model, such as input and output tensor names, input and output types, and model description. It serves as a reference for integrating the TFLite model into applications.
+
+## Requirements
+
+To run the notebook and utilize the model, the following dependencies are required:
+- Tensorflow
+- Keras
+- Matplotlib
+- NumPy
+- PIL
+- psutil
+
+Make sure to install these dependencies before running the notebook.
+
+## Usage
+
+1. Clone the repository
+
+```bash
+git clone github.com/Terrafarms/bangkit-machine-learning.git
+```
+
+2. Install the required dependencies in your Google Colab/Jupyter Notebook
+
+```bash
+pip install tensorflow keras matplotlib numpy pillow psutil
+```
+
+3. Navigate to the repository `Notebooks` directory and open the notebooks
+
+4. Run the cells in the notebook to train the model and evaluate its performance.
+   
+5. Save the trained model as model.h5 for future use.
+   
+6. Convert the model to TFLite format using the provided code and save it as model.tflite.
+
+7. Use the saved model for inference in your applications. Refer to the metadata file (metadata.txt) for integration details.
