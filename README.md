@@ -31,7 +31,7 @@ The model architecture consists of the following layers:
 
 The dataset we used consists for the `Plant_Disease_Classifcation` model are images belonging to nine different classes of plant diseases, including Corn Blight, Corn Common Rust, Corn Gray Spot, Corn Healthy, Potato Blight, Potato Healthy, Rice Blight, Rice Brown Spot, and Rice Leaf Smut. While the dataset for the `Soil_Types_Classification` model are images belonging to five different classes of soil types, including Black Soil, Cinder Soil, Laterite Soil, Peat Soil, and Yellow Soil.
 
-Data augmentation techniques are applied to increase the diversity and size of the dataset. The ImageDataGenerator class from TensorFlow is used for rescaling, rotation, zooming, flipping, shifting, shearing, and adjusting brightness of the images.
+Data augmentation techniques are applied to increase the diversity and size of the dataset. The `ImageDataGenerator` class from TensorFlow is used for rescaling, rotation, zooming, flipping, shifting, shearing, and adjusting brightness of the images.
 
 ### Model Training
 
@@ -45,4 +45,6 @@ The trained model is evaluated using the test dataset. The evaluation provides t
 
 ### Model Saving and Conversion
 
-The trained model is saved in the HDF5 format as model.h5 for future use. To integrate the model with android applications, the model is converted to the TensorFlow Lite (TFLite) format using the TFLite Converter. The TFLite model is saved as model.tflite for deployment on resource-constrained devices.
+The trained model is saved in the HDF5 format as `model.h5` for future use. To integrate the model with android applications, the model is converted to the TensorFlow Lite (TFLite) format using the TFLite Converter. The TFLite model is saved as `model.tflite` for deployment on resource-constrained devices.
+
+In addition to the TFLite model, a metadata file (`metadata.txt`) is provided. The metadata file contains information about the model, such as input and output tensor names, input and output types, and model description. It serves as a reference for integrating the TFLite model into applications.
