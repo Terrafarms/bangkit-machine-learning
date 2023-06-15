@@ -37,8 +37,6 @@ Data augmentation techniques are applied to increase the diversity and size of t
 
 The model is then trained using the augmented dataset. `Plant_Disease_Classifcation` model training is performed for 10 epochs with a batch size of 8. While `Soil_Types_Classification` model is performed for 25 epochs with a batch size of 4.  Two callbacks, EarlyStopping and ReduceLROnPlateau, are used for early stopping and learning rate reduction based on validation loss.
 
-Training and validation accuracy and loss are plotted to visualize the model's performance during the training process.
-
 ### Model Evaluation
 
 The trained model is evaluated using the test dataset. The evaluation provides the loss and accuracy scores of the model on the test dataset. Additionally, a sample of images from the test dataset is used to demonstrate the model's predictions. The predicted class and confidence score are displayed for each image.
