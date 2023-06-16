@@ -8,7 +8,7 @@ This repository contains a collection of resources used during the capstone proj
 ## Architecture
 
 ![WhatsApp Image 2023-06-16 at 10 30 48](https://github.com/Terrafarms/bangkit-machine-learning/assets/54931717/b76acca4-5333-4d48-96d3-c3b6c0f996c2)
-
+Sandler, M., Howard, A., Zhu, M., Zhmoginov, A., & Chen, L. C. (2018). Mobilenetv2: Inverted residuals and linear bottlenecks. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 4510-4520).
 
 ## Datasets
 * [New Plant Diseases Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
