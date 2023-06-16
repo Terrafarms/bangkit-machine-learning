@@ -7,7 +7,7 @@ This repository contains a collection of resources used during the capstone proj
 
 ## Architecture
 
-![image](https://github.com/Terrafarms/bangkit-machine-learning/assets/66078837/986cd74b-3062-43bc-84de-b5a125663e97)
+![WhatsApp Image 2023-06-16 at 10 30 48](https://github.com/Terrafarms/bangkit-machine-learning/assets/54931717/b76acca4-5333-4d48-96d3-c3b6c0f996c2)
 
 
 ## Datasets
