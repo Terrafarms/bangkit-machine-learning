@@ -83,3 +83,16 @@ pip install tensorflow keras matplotlib numpy pillow psutil
 6. Convert the model to TFLite format using the provided code and save it as model.tflite.
 
 7. Use the saved model for inference in your applications. Refer to the metadata file (metadata.txt) for integration details.
+
+## Contributing
+
+Contributions to this project are welcome. If you have any ideas, suggestions, or improvements, please submit a pull request. Make sure to follow the existing coding style and guidelines.
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code as per the license terms.
+
+## Contact
+
+For any inquiries or feedback, please contact the project team at contact@terrafarms.id
+
